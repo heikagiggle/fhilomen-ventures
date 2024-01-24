@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+:root {
+  font-family: 'Reem Kufi';
+
+  --gradient-text: linear-gradient(89.97deg, #110221 1.84%, #455784 102.67%);
+  /* --gradient-text: linear-gradient(89.97deg, #16399b 1.84%, #0d0d0d 102.67%); */
+
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #d7d8dc;
+  --color-footer : #002366;
+  --color-blog: #042c54;
+  --color-text: #000000;
+  --color-subtext: #FF8A71;
+  --color-head: #ffffff;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+.botn{
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: white;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}

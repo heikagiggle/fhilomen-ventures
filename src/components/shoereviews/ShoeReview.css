@@ -1,0 +1,53 @@
+.fhilomen__shoe-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+.fhilomen__shoe-details {
+    text-align: center;
+    padding: 1rem;
+}
+
+.fhilomen__shoe-details h2,
+.fhilomen__shoe-details h3,
+.fhilomen__shoe-details p
+{
+  margin-top: 10px;
+}
+  
+.rating {
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* .shoe__review-image{
+    width: 100%;
+} */
+  
+.shoe__review-image img{
+    width: 250px;
+    /* width: 100%;
+    max-width: 200px; 
+    height: auto; */
+}
+  
+@media (min-width: 768px) {
+    .fhilomen__shoe-review {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .fhilomen__shoe-details {
+      margin-right: 20px;
+      text-align: left;
+    }
+  
+    .fhilomen__shoe-image {
+      margin-top: 0;
+    }
+}
+  

@@ -1,0 +1,35 @@
+.fhilomen__review{
+    justify-content: center;
+    align-items: center;
+    
+}
+.fhilomen__review-head{
+    padding: 20px;
+    text-align: center;
+}
+.fhilomen__review-list {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}
+.fhilomen__images{ 
+    align-items: center;
+    max-width: 50px;
+}
+@media screen and (max-width: 1150px) {
+    .fhilomen__review{
+        flex-direction: column;
+    }
+    .fhilomen__review-list {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+    }
+  
+    .fhilomen__images {
+      max-width: 100%;
+      margin: 5rem 0;
+    }
+  }
+  
+ 

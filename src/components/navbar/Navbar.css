@@ -1,0 +1,129 @@
+.fhilomen__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.fhilomen__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fhilomen__navbar-logo h1{
+    font-size: 40px;
+    color: var(--color-head);
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.fhilomen__navbar-links_nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.fhilomen__navbar-second{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fhilomen__navbar-links_nav p,
+.fhilomen__navbar-second p,
+.__navbar-menu_container p {
+    color: #000;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+    color: #fff;
+}
+.fhilomen__navbar-second .button,
+.fhilomen__navbar-mobile_menu-second button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #002366;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.fhilomen__navbar-second button:hover,
+.fhilomen__navbar-mobile-menu_second:hover{
+    transform: scale(1.04);
+}
+
+.fhilomen__navbar-mobile{
+    display: none;
+    position: relative;
+    margin-left: 1rem;
+}
+.fhilomen__navbar-mobile svg{
+    cursor: pointer;
+}
+.fhilomen__navbar-mobile_menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-head);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    color: var(--color-head);
+}
+.fhilomen__navbar-mobile_menu p {
+    margin: 1rem 0;
+}
+
+.fhilomen__navbar-mobile_menu-second {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .fhilomen__navbar-links_nav {
+        display: none;
+    }
+
+    .fhilomen__navbar-mobile {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .fhilomen__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .fhilomen__navbar {
+        padding: 2rem;
+    }
+
+    .fhilomen__navbar-second {
+        display: none;
+    }
+
+    .fhilomen__navbar-mobile_menu{
+        top: 20px;
+    }
+
+    .fhilomen__navbar-mobile_menu-second {
+        display: block;
+    }
+}

@@ -1,0 +1,104 @@
+.fhilomen__about{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.fhilomen__about-header {
+    display: flex;
+    background-color: #ffffff; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin: 5rem 10rem 0;
+    width: 800px;
+}
+.fhilomen__about-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+.fhilomen__about-content h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--color-footer);
+}
+.fhilomen__about-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+.fhilomen__about-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:3rem ;
+}
+.fhilomen__about-image img {
+    width: 380px;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .fhilomen__about {
+        flex-direction: column;
+    }
+    .fhilomen__about-header {
+        flex-direction: column;
+        width: 100%;
+    }
+    .fhilomen__about-image{
+        margin-right: 0;
+    } 
+
+    .fhilomen__header-content {
+        margin: 0 0 3rem;
+    }
+    .fhilomen__about-content h1{
+        margin-top: 2rem;
+    }
+     .fhilomen__about-header {
+        margin-top: 5rem;
+        margin: 5rem 6rem 0;
+    }
+    .fhilomen__about-image img{
+        height: 100%;
+        margin-top: 2rem;
+    }
+    .fhilomen__about-image{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px){
+    .fhilomen__about {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 490px) {
+    .fhilomen__about-header{
+        flex-direction: column;
+    }
+    .fhilomen__about-content h1 {
+        font-size: 20px;
+    }
+    
+
+    .fhilomen__about-content p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .fhilomen__about-image img{
+        height: 100%;
+        margin-top: 2rem;
+        width: 250px;
+    }
+
+}

@@ -1,0 +1,58 @@
+.fhilomen__blog {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.fhilomen__blog-head {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.fhilomen__blog-head h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    text-decoration: underline;
+}
+
+.fhilomen__blog-head p {
+    color: purple;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+
+    margin-top: 2rem;
+}
+
+.fhilomen__blog-content {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width: 990px) {
+    .fhilomen__blog {
+        flex-direction: column;
+    }
+
+    .fhilomen__blog-head {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .fhilomen__blog-head h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

@@ -1,0 +1,77 @@
+.fhilomen__contact{
+    display: flex;
+  flex-direction: row;
+}
+.fhilomen__contact-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+
+}
+.fhilomen__contact-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+.fhilomen__contact-content button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #002366;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+.fhilomen__contact-input textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--color-footer);
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+    resize: none;
+    outline: none;
+}
+.fhilomen__coontact-icons {
+    color: var(--color-black);
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+.fhilomen__coontact-icons svg:hover {
+    color: var(--color-red);
+}
+
+.fhilomen__contact-image img {
+    width: 480px;
+    height: 100%;
+}
+@media screen and (max-width: 1050px) {
+    .fhilomen__contact {
+        flex-direction: column;
+    }
+
+    
+}
+@media screen and (max-width: 640px) {
+    .fhilomen__contact-image img  {
+        width: 380px;
+    }
+
+}
